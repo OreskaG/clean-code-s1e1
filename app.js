@@ -33,7 +33,7 @@ var createNewTaskElement=function(taskString){
     var deleteButtonImg=document.createElement("img");//delete button image
 
     label.innerText=taskString;
-    label.className="main__block main__label";
+    label.className="main__block main__label__text";
 
     //Each elements, needs appending
 
