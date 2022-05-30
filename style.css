@@ -12,7 +12,7 @@
   text-align: right;
 }
 
-.header img {
+.header__img {
   width: 100%;
 }
 
@@ -76,7 +76,7 @@
 
 /* Heading */
 .main__text,
-.main__label[for="main__task_new"] {
+.main__label__text[for="main__task_new"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -104,7 +104,7 @@
 }
 
 /* New Task */
-.main__label[for="main__task_new"] {
+.main__label__text[for="main__task_new"] {
   display: block;
   margin: 0 0 20px;
 }
@@ -132,7 +132,7 @@
   margin: 0 10px;
 }
 
-.main__task > .main__label {
+.main__task > .main__label__text {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -143,18 +143,18 @@
   width: 226px;
 }
 
-.main__button.main__button_delete img {
+.main__button_remove {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.main__button.main__button_delete img:hover {
+.main__button_remove:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.main__tasks#main__task_complete .main__label {
+.main__tasks#main__task_complete .main__label__text {
   text-decoration: line-through;
   color: #888;
 }
@@ -169,6 +169,6 @@
   width: 224px;
 }
 
-.main__tasks .main__task_edit .main__label {
+.main__tasks .main__task_edit .main__label__text {
   display: none;
 }
