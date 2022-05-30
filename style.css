@@ -12,7 +12,7 @@
   text-align: right;
 }
 
-.header img {
+.header__img {
   width: 100%;
 }
 
@@ -143,13 +143,13 @@
   width: 226px;
 }
 
-.main__button.main__button_delete img {
+.main__button_remove {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.main__button.main__button_delete img:hover {
+.main__button_remove:hover {
   transform: rotateZ(0);
 }
 
